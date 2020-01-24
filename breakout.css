@@ -1,0 +1,65 @@
+.container {
+    width: 1000px;
+    height: 600px;
+    background-color: black;
+    position: relative;
+    font-size: 0;
+}
+
+.ball {
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+#stick {
+    width: 150px;
+    height: 25px;
+    background-color: blue;
+    border-radius: 10px;
+    position: absolute;
+
+}
+
+.brick {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    border: solid salmon 1px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+}
+
+#score-table,
+.announcement {
+    background-color: cornflowerblue;
+    width: 200px;
+    height: 30px;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+
+.announcement {
+    position: relative;
+    top: 300px;
+    left: 350px;
+    width: 300px;
+    height: 80px;
+    display: none;
+    vertical-align: middle;
+}
+.announcement.start {
+    display: inline-block;
+
+}
+.game-button {
+    width: 50px;
+    height: 30px;
+    background-color: orange;
+
+}
+
